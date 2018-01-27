@@ -1,0 +1,98 @@
+#edButtonREST {
+    -moz-border-radius-bottomleft:0;
+    -moz-border-radius-bottomright:0;
+    -moz-border-radius-topleft:3px;
+    -moz-border-radius-topright:3px;
+    border-style:solid;
+    border-width:1px;
+    cursor:pointer;
+    float:right;
+    height:18px;
+    margin:5px 5px 0 0;
+    padding:4px 5px 2px;
+}
+
+#rest-toolbar {
+    display: none;
+    -moz-border-radius-bottomleft:0;
+    -moz-border-radius-bottomright:0;
+    -moz-border-radius-topleft:6px;
+    -moz-border-radius-topright:6px;
+    border-collapse:separate;
+    border-style:solid;
+    border-width:1px;
+    background-image:url(../../../wp-admin/images/ed-bg.gif);
+    background-position:left top;
+    background-repeat:repeat-x;
+    border-bottom-width:3px;
+    margin-bottom:-3px;
+    padding:0;
+}
+
+#rest-tools {
+    padding:2px 4px 0;
+    position: relative;
+}
+
+#rest-tools input {
+    display:inline-block;
+    font-size:12px;
+    line-height:18px;
+    margin:3px 1px 4px;
+    min-width:26px;
+    padding:2px 4px;
+}
+
+#rest-tools input[disabled], #rest-tools input[disabled]:hover {
+	color: #aaa !important;
+	border-color: #ddd !important;
+}
+
+#rest-controls {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2px 4px;
+}
+
+#rest-container {
+    display: none;
+    -moz-border-radius-bottomleft:0;
+    -moz-border-radius-bottomright:0;
+    -moz-border-radius-topleft:6px;
+    -moz-border-radius-topright:6px;
+    border-collapse:separate;
+    border-style:solid;
+    border-width:1px;
+}
+
+#rest-container textarea {
+    -moz-box-sizing:border-box;
+    border:0 none;
+    line-height:150%;
+    outline-color:-moz-use-text-color;
+    outline-style:none;
+    outline-width:medium;
+    padding:6px;
+    margin:0;
+    width:100%;
+    font-family: monospace;
+}
+
+#rest-container p {
+    padding: 20px;
+}
+
+#rest-tool-emphasis {
+    font-style: italic;
+}
+
+#rest-tool-strong {
+    font-weight: bold;
+}
+
+/* This ignorant selector is needed to override crappy WP defaults */
+#rest-toolbar #rest-tools #rest-tool-literal {
+    font-family: monospace;
+    padding-top: 4px;
+}

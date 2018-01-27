@@ -71,5 +71,12 @@
 		twentyseventeen_entry_footer();
 	}
 	?>
-
+<div class="reward">
+	<div class="reward-button">
+		赏 <span class="reward-code"><span class="alipay-code"><img class="alipay-img" src="http://blog.linuxpanda.tech/wp-content/uploads/2018/01/zhifubao.bmp"><b>支付宝扫码打赏</b></span><span class="wechat-code"><img class="wechat-img" src="http://blog.linuxpanda.tech/wp-content/uploads/2018/01/weixin.bmp"><b>微信打赏</b></span></span>
+	</div>
+	<p class="reward-notice">
+		如果文章对您有帮助，欢迎移至上方按钮打赏我
+	</p>
+</div>
 </article><!-- #post-## -->
